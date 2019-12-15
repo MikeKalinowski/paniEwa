@@ -24,9 +24,8 @@
 .site-footer-inner {
     position: relative; /* To display all elements above the background color */
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    justify-content: space-between;
+    padding: 24px 0px;
 }
 
 .footer-brand,
@@ -34,9 +33,9 @@
 .footer-social-links,
 .footer-copyright {
     flex: none;
-    width: 100%;
     display: inline-flex;
     justify-content: center;
+    padding: 0px 40px;
 }
 
 .footer-brand,
@@ -71,8 +70,7 @@
 
     .site-footer-inner {
         justify-content: space-between;
-		padding-top: 72px;
-		padding-bottom: 72px;
+		padding: 40px 0px
     }
 
     .footer-brand,
@@ -80,6 +78,7 @@
     .footer-social-links,
     .footer-copyright {
         flex: 50%;
+        padding: 0;
     }
 
     .footer-brand,
